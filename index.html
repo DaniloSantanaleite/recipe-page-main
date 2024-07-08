@@ -24,7 +24,8 @@
 
     }
     main{
-      width: 800px;
+      min-width: 300px;
+      max-width: 800px;
       margin: auto;
       border-radius: 20px;
       background-color:hsl(0, 0%, 100%);
@@ -34,7 +35,7 @@
       font-size: 16px;
     }
     .img{
-      width: 690px;
+      max-width: 690px;
       height: 280px;
       margin: 40px auto;
       border-radius: 10px;
@@ -48,14 +49,13 @@
     .preparation{
       background-color:hsl(330, 100%, 98%);
       border-radius: 10px;
-      height: 170px;
+      max-height: 170px;
       font-family: "Outfit", sans-serif;
       
 
 
     }
     .preparation h2{
-
       padding:  10px 15px;
       margin: 0px 15px;
       color:hsl(14, 45%, 36%)
@@ -75,12 +75,18 @@
 
     }
     table{
-      width: 600px;
+      max-width: 900px;
       padding: 15px;
+     
+      
     }
     tr, td{
       padding: 10px;
+      
+     
     }
+  
+  
 
   </style>
 </head>
@@ -113,7 +119,7 @@
       </ul>
       <h2>Instructions</h2>
       <ul>
-        <li type="1">
+        <li type="1" class="numero">
           <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
           You can add a tablespoon of water or milk for a fluffier texture.
         </li>
